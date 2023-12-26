@@ -17,6 +17,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Outfit', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 
 main{
@@ -26,7 +28,7 @@ main{
     align-items: center;
     padding: 16px;
     border-radius: 30px;
-    width: 20rem;
+    max-width: 20rem;
 }
 
 main img{
@@ -37,16 +39,12 @@ main img{
 
 main h2{
     color: var(--DarkBlue);
-    font-family: 'Outfit', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
-    text-align: center;
 }
 
 main p{
     color: var(--GrayishBlue);
     font-size: .95rem;
-    font-family: 'Outfit', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    text-align: center;
 }
 
